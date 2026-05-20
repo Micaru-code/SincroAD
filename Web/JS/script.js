@@ -128,10 +128,10 @@ validar(usernameOrigen, listaDestino, soloExternos) {
         filaSuperior.style.gap = "15px";
 
         // BOTÓN 1: Modo
-        let btnModo = document.createElement('button');
-        btnModo.textContent = `MODO: ${this.modoExternos ? 'EXTERNOS' : 'COMPLETA'}`;
-        btnModo.className = "cambio";
-        btnModo.onclick = () => { this.modoExternos = !this.modoExternos; this.dibujar(); };
+        //let btnModo = document.createElement('button');
+        //btnModo.textContent = `MODO: ${this.modoExternos ? 'EXTERNOS' : 'COMPLETA'}`;
+        //btnModo.className = "cambio";
+        //btnModo.onclick = () => { this.modoExternos = !this.modoExternos; this.dibujar(); };
 
         // BOTÓN 2: Dirección (RECUPERADO)
         let btnDireccion = document.createElement('button');
@@ -146,7 +146,7 @@ validar(usernameOrigen, listaDestino, soloExternos) {
         btnAlta.className = "cambio";
         btnAlta.onclick = () => this.pantallaAlta();
 
-        filaSuperior.append(btnModo, btnDireccion, btnAlta);
+        filaSuperior.append(/*btnModo,*/ btnDireccion, btnAlta);
 
         // BOTÓN FINAL: Ejecutar Migración
         let btnMerge = document.createElement('button');
