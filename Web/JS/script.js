@@ -258,7 +258,6 @@ pantallaResolucion(usuario, listaComparar) {
 
     this.base.innerHTML = "";
     
-    // Obtenemos los valores actuales (o los temporales si ya se editaron)
     let currentName = usuario.Name || usuario.nombre || "";
     let currentUser = usuario.Username || usuario.username || "";
     let currentEmail = usuario.Email || usuario.email || "";
