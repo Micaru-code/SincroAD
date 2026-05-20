@@ -1,0 +1,29 @@
+﻿{
+    "ExportDate":  "2026-02-24 20:00:06",
+    "OUs":  {
+                "Name":  "Domain Controllers",
+                "DistinguishedName":  "OU=Domain Controllers,DC=mercadona,DC=super"
+            },
+    "Users":  [
+                  {
+                      "Name":  "Administrador",
+                      "SamAccountName":  "Administrador",
+                      "EmailAddress":  null
+                  },
+                  {
+                      "Name":  "Invitado",
+                      "SamAccountName":  "Invitado",
+                      "EmailAddress":  null
+                  },
+                  {
+                      "Name":  "krbtgt",
+                      "SamAccountName":  "krbtgt",
+                      "EmailAddress":  null
+                  },
+                  {
+                      "Name":  "SincroUser",
+                      "SamAccountName":  "SincroUser",
+                      "EmailAddress":  null
+                  }
+              ]
+}
